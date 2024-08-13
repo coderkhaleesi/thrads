@@ -43,7 +43,7 @@
 		class=" bg-gradient-radial rounded-full from-secondary/30 to-background blur-xl flex flex-col items-center justify-center -z-10 p-4 absolute top-70 right-0 w-1/2 h-1/2">
 	</div>
 	<div>
-		<nav class="w-full mt-4 fixed top-0 left-0 z-50">
+		<nav class="w-full mt-4 fixed top-0 left-0 z-40">
 			<div class="max-w-3xl px-4 py-3 rounded-full mx-auto flex justify-between items-center border border-border bg-background/80 backdrop-blur-sm">
 				<div class="flex items-center space-x-2">
 					<div class="w-8 h-8 bg-primary rounded-full">
