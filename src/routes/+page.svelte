@@ -79,7 +79,7 @@
 					<img src="/logo.png" alt="AdgentGPT Logo" class="w-14 h-14 rounded-full object-cover" />
 					<div class="flex flex-col">
 						<h1 class="text-3xl font-bold">AdgentGPT</h1>
-						<p class="text-sm text-muted-foreground mt-2">The future of communication is here, be there!</p>
+						<p class="text-sm text-muted-foreground mt-2">See it in action!</p>
 					</div>
 				</div>
 			</header>
