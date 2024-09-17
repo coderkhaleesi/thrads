@@ -74,7 +74,7 @@
 
 		<!-- Chat Area -->
 		<div class="max-w-4xl border border-border w-full bg-card rounded-lg shadow-2xl overflow-hidden mx-auto">
-			<header class="bg-muted text-card-foreground p-4 text-left">
+			<header class="bg-muted/50 text-card-foreground p-4 text-left">
 				<div class="flex items-center space-x-3">
 					<img src="/logo.png" alt="AdgentGPT Logo" class="w-14 h-14 rounded-full object-cover" />
 					<div class="flex flex-col">
