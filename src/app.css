@@ -1,84 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Lilita+One&family=Raleway:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
+    /* Light Theme Variables */
+    --background: 28 76% 97%;          /* Light: #FDF6F0 */
+    --foreground: 13 22% 40%;          /* Dark (brown): #7D5A50 */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 16 7% 56%;                /* Gray: #978C88 */
+    --muted-foreground: 13 22% 40%;    /* Dark (brown): #7D5A50 */
 
-    --popover: 210 40% 98%;
-    --popover-foreground: 222 47% 11%;
+    --popover: 28 76% 97%;             /* Light: #FDF6F0 */
+    --popover-foreground: 13 22% 40%;  /* Dark (brown): #7D5A50 */
 
-    --card: 210 40% 98%;
-    --card-foreground: 222 47% 11%;
+    --card: 28 76% 97%;                /* Light: #FDF6F0 */
+    --card-foreground: 13 22% 40%;     /* Dark (brown): #7D5A50 */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+    --border: 16 7% 56%;               /* Gray: #978C88 */
+    --input: 16 7% 56%;                /* Gray: #978C88 */
 
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 13 22% 40%;             /* Dark (brown): #7D5A50 */
+    --primary-foreground: 28 76% 97%;  /* Light: #FDF6F0 */
 
-    --secondary: 127 72% 55%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 16 7% 56%;            /* Gray: #978C88 */
+    --secondary-foreground: 28 76% 97%;/* Light: #FDF6F0 */
 
-    --accent: 342 89% 48%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 13 22% 40%;              /* Dark (brown): #7D5A50 */
+    --accent-foreground: 28 76% 97%;   /* Light: #FDF6F0 */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 13 22% 40%;         /* Dark (brown): #7D5A50 */
+    --destructive-foreground: 28 76% 97%; /* Light: #FDF6F0 */
 
-    --ring: 221.2 83.2% 53.3%;
+    --ring: 13 22% 40%;                /* Dark (brown): #7D5A50 */
 
     --radius: 0.5rem;
   }
- 
+
   .dark {
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
- 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
- 
-    --popover: 222 47% 11%;
-    --popover-foreground: 210 40% 98%;
- 
-    --card: 222 47% 11%;
-    --card-foreground: 210 40% 98%;
- 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
- 
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 222 47% 11%;
- 
-    --secondary: 135 94% 65%;
-    --secondary-foreground: 222 47% 11%;
- 
-    --accent: 330 81% 60%;
-    --accent-foreground: 222 47% 11%;
- 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
- 
-    --ring: 217.2 91.2% 59.8%;
+    /* Dark Theme Variables */
+    --background: 13 22% 40%;          /* Dark (brown): #7D5A50 */
+    --foreground: 28 76% 97%;          /* Light: #FDF6F0 */
+
+    --muted: 16 7% 56%;                /* Gray: #978C88 */
+    --muted-foreground: 28 76% 97%;    /* Light: #FDF6F0 */
+
+    --popover: 13 22% 40%;             /* Dark (brown): #7D5A50 */
+    --popover-foreground: 28 76% 97%;  /* Light: #FDF6F0 */
+
+    --card: 13 22% 40%;                /* Dark (brown): #7D5A50 */
+    --card-foreground: 28 76% 97%;     /* Light: #FDF6F0 */
+
+    --border: 16 7% 56%;               /* Gray: #978C88 */
+    --input: 16 7% 56%;                /* Gray: #978C88 */
+
+    --primary: 28 76% 97%;             /* Light: #FDF6F0 */
+    --primary-foreground: 13 22% 40%;  /* Dark (brown): #7D5A50 */
+
+    --secondary: 16 7% 56%;            /* Gray: #978C88 */
+    --secondary-foreground: 13 22% 40%;/* Dark (brown): #7D5A50 */
+
+    --accent: 28 76% 97%;              /* Light: #FDF6F0 */
+    --accent-foreground: 13 22% 40%;   /* Dark (brown): #7D5A50 */
+
+    --destructive: 16 7% 56%;          /* Gray: #978C88 */
+    --destructive-foreground: 28 76% 97%; /* Light: #FDF6F0 */
+
+    --ring: 28 76% 97%;                /* Light: #FDF6F0 */
   }
 }
- 
+
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border; 
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  body {
+    @apply font-raleway; /* Default font is Raleway */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poetsen; /* Apply Poetson One for all headings */
+  }
+
+  p, span, a, li {
+    @apply font-lilita; /* Apply Lilita One for paragraphs and inline text */
   }
 }
 
 @layer utilities {
   .bg-gradient-radial {
-      background-image: radial-gradient(circle, var(--tw-gradient-stops));
+    background-image: radial-gradient(circle, var(--tw-gradient-stops));
   }
 }
