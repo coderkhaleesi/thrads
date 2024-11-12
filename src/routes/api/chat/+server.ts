@@ -11,7 +11,7 @@ const groq = new Groq({ apiKey: env.GROQ_API_KEY });
 const ads = [
 	{ copy: "Gymshark is gym done strong.", url: "https://gymshark.com" },
 	{ copy: "Nike, just do it.", url: "https://nike.com" },
-	{ copy: "AdTech is the future.", url: "https://adgent.ai" },
+	{ copy: "AdTech is the future.", url: "https://thrads.us" },
 ];
 
 function getRandomAd(ads: Array<{ copy: string; url: string }>): { copy: string; url: string } {

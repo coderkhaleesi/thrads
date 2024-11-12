@@ -47,9 +47,9 @@
 			<div class="max-w-3xl px-4 py-3 rounded-full mx-auto flex justify-between items-center border border-border bg-background/80 backdrop-blur-sm">
 				<div class="flex items-center space-x-2">
 					<div class="w-8 h-8 bg-primary rounded-full">
-						<img src="/logo.png" alt="Adgent" class="w-full h-full object-cover rounded-full" />
+						<img src="/logo.png" alt="Thrads" class="w-full h-full object-cover rounded-full" />
 					</div>
-					<span class="text-xl text-primary">Adgent</span>
+					<span class="text-xl text-primary">Thrads</span>
 				</div>
 				<div class="hidden md:flex space-x-6">
 					<a href="#" class="text-foreground hover:text-secondary">Product</a>
@@ -68,7 +68,7 @@
 			<div class="bg-card border border-border text-card-foreground px-4 py-2 rounded-full text-sm inline-block mb-8">
 				<a href="#chat" class="hover:underline">🚀 New Feature: AI-Powered Ad Generation →</a>
 			</div>
-			<h1 class="bg-clip-text text-transparent bg-gradient-to-r text-6xl p-8 from-primary to-secondary" style="font-family: 'Poetsen One', sans-serif;">Adgent Chatbot Advertising</h1>
+			<h1 class="bg-clip-text text-transparent bg-gradient-to-r text-6xl p-8 from-primary to-secondary" style="font-family: 'Poetsen One', sans-serif;">Thrads Chatbot Advertising</h1>
 			<p class="text-3xl mt-2 text-foreground">The future of communication is here, be there!</p>
 		</header>
 
@@ -76,9 +76,9 @@
 		<div class="max-w-4xl border border-border w-full bg-card rounded-lg shadow-2xl overflow-hidden mx-auto">
 			<header class="bg-muted/50 text-card-foreground p-4 text-left">
 				<div class="flex items-center space-x-3">
-					<img src="/logo.png" alt="AdgentGPT Logo" class="w-14 h-14 rounded-full object-cover" />
+					<img src="/logo.png" alt="ThradsGPT Logo" class="w-14 h-14 rounded-full object-cover" />
 					<div class="flex flex-col">
-						<h1 class="text-3xl" style="font-family: 'Poetsen One', sans-serif;">AdgentGPT</h1>
+						<h1 class="text-3xl" style="font-family: 'Poetsen One', sans-serif;">ThradsGPT</h1>
 						<p class="text-sm text-muted-foreground mt-2">See it in action!</p>
 					</div>
 				</div>
@@ -126,7 +126,7 @@
 		</div>
 
 		<footer class="mt-8 text-center text-primary-foreground">
-			<p class="text-sm">&copy; 2024 Adgent. All rights reserved.</p>
+			<p class="text-sm">&copy; 2024 Thrads. All rights reserved.</p>
 			<div class="mt-4 space-x-4">
 				<a href="#" class="text-primary-foreground hover:text-muted-foreground transition duration-200">About</a>
 				<a href="#" class="text-primary-foreground hover:text-muted-foreground transition duration-200">Features</a>
